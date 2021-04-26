@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../styles/style.navbar.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.commande.css">
+    <title>Pizza</title>
+</head>
+<body>
+    <!--NavBar-->
+    <div>
+        <ul class="navbar">
+            <div class="div-logo">
+                <a href="">
+                    <img class="logo" width="43" src="../assets/img/pizza.png" alt="">
+                </a>
+            </div>
+
+            <li class="navbar-li"><a class="menu-a" href="../index.html">La carte</a></li>
+            <li class="navbar-li"><a class="menu-a" href="">Commander</a></li>
+            <li class="navbar-li"><a class="menu-a" href="">Trouver un restaurant</a></li>
+          </ul>
+    </div>
+    
+    <!-- La carte-->
+
+    <div class="container">
+        <div class="element">
+            <div class="sur-place">
+
+                <h2>Sur place</h2>
+                <form>
+                    <label for="nom">Nom:</label><br>
+                    <input type="text" id="nom" name="nom"><br>
+                    <label for="prenom">Prénom:</label><br>
+                    <input type="text" id="prenom" name="prenom"><br>
+                    <label for="num">Num tél:</label><br>
+                    <input type="text" id="num" name="num"><br>
+                    <br>
+                    <label for="pizzas">Choisissez une pizza :</label><br><br>    
+                    <select name="pizzas" class="choix-pizzas">
+                        <option value="fromage">Pizza quatre fromage</option>
+                        <option value="chorizo">Pizza chorizo</option>
+                        <option value="thon">Pizza thon</option>
+                        <option value="reine">Piza reine</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Je commande">
+                  </form>                
+            </div>
+
+            <div class="a-emporter">
+                <h2>A emporter</h2>
+                <form>
+                    <label for="pizzas">Choisissez une pizza :</label><br><br>    
+                    <select name="pizzas" class="choix-pizzas">
+                        <option value="fromage">Pizza quatre fromage</option>
+                        <option value="chorizo">Pizza chorizo</option>
+                        <option value="thon">Pizza thon</option>
+                        <option value="reine">Piza reine</option>
+                    </select>
+                    <br><br>
+                    <label for="heure">Choisissez l'heure de passage:</label><br><br>
+                    <input type="time" class="choix-heure" name="heure">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Je commande">
+                  </form>                
+            </div>              
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
